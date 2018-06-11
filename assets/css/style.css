@@ -1,0 +1,439 @@
+/*global*/
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #777777;
+    background-image: url(../images/what-the-hex.png);
+    margin: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+em { 
+    font-style: italic;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    background-color: white;
+    border-bottom: solid 2px;
+    border-color: #cccccc;
+    height: 90px;
+    width: 100%;
+ 
+}
+
+#navBar {
+    width: 960px;
+    margin: auto;
+    border-bottom: solid 1px;
+    border-color: #cccccc;
+}
+
+#home {
+    background-color: #4aaaa5;
+    color: white;
+    width: 330px;
+    height: 72px;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+    padding-top: 19px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
+}
+
+#home a {
+    text-decoration: none;
+    color: white;
+}
+
+#navigation {
+    float: right;
+    padding-top: 20px;
+}
+
+#navigation ul {
+    list-style-type: none;
+    float: right;
+    margin: 0px; 
+    padding: 0;
+}
+
+#navigation li {
+    display: inline;
+    float: left;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#navigation li a {
+    color: #777777;
+    text-decoration: none; 
+}
+
+#navigation li a:hover {
+    background-color:#4aaaa5;
+    color: white;
+}
+
+footer {
+    background-color: #666666;
+    height: 60px;
+    border-top: solid 10px;
+    border-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#aboutMe p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 10px;
+
+}
+
+/*About Me Page */
+
+#sectionHeader {
+    margin-top: 0px; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
+    color: #4aaaa5;
+}
+
+#aboutMe {
+    background-color: #ffffff;
+    border: solid 1px; 
+    border-color: #dddddd;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 100px;
+    padding: 35px;
+    width: 890px;
+}
+
+#profilePic {
+    height:200px; 
+    width: 200px; 
+    float:left; 
+    margin-right:15px; 
+    margin-bottom:15px;
+    margin-top: 10px;
+}
+
+/*Portfolio Page */
+
+#Portfolio {
+    background-color: #ffffff;
+    border: solid 1px; 
+    border-color: #dddddd;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 850px;
+    width: 890px;
+    padding: 35px;
+}
+
+#Portfolio section {
+    width:750px;
+}
+
+.imgPort {
+    position: relative;
+    height: 200px;
+    width: 275px;
+    float: left;
+    margin-bottom: 57px;
+    margin-right: 40px;
+}
+
+.imgPort:hover {
+    box-shadow: 2px 2px 5px gray;
+
+}
+
+.imgPort img {
+    height: 200px;
+    width: 275px;
+    border: 1px solid #ccc 
+}
+
+.imgTitle {
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    background-color: #4aaaa5;
+    left:0px;
+    top: 140px;
+    height: 35px;
+    width:276px;
+    text-align: center;
+    padding-top:14px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.imgTitle:hover {
+    color: white;
+    background-color: #3E0CE8;
+    opacity: .9;
+    font-size: 18px;
+}
+
+/*Contact Page */
+
+#Contact {
+    background-color: #ffffff;
+    border: solid 1px; 
+    border-color: #dddddd;
+    margin: auto;
+    margin-top: 50px;
+    width: 890px;
+    padding: 35px;
+}
+
+.form {
+    width: 895px;
+}
+
+label {
+    margin-top: 15px;
+    display: block;
+}
+
+textarea {
+    height: 200px; 
+    width: 895px; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#submit {
+    background-color: #4aaaa5; 
+    color: white; 
+    width: 115px; 
+    height: 40px; 
+    font-size: 18px; 
+    margin-top: 15px;"
+}
+
+#submit:hover {
+    border: 1px solid #4aaaa5;
+}
+
+/* media */
+
+@media only screen and (max-width: 980px) {
+
+    #navBar {
+        width: 650px;
+        margin: auto;
+        border-bottom: solid 1px;
+        border-color: #cccccc;
+    }
+
+    #aboutMe {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top:50px;
+        margin-bottom: 100px;
+        padding: 35px;
+        width: 650px;
+    }
+    #Portfolio {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        height: 850px;
+        width: 650px;
+        padding: 35px;
+    }
+
+    #Contact {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top: 50px;
+        width: 650px;
+        padding: 35px;
+    }
+    
+    .form {
+        width: 650px;
+    }
+    
+    textarea {
+        height: 200px; 
+        width: 650px; 
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    
+
+@media only screen and (max-width: 768px) {
+
+    #navBar {
+        width: 500px;
+        margin: auto;
+        border-bottom: solid 1px;
+        border-color: #cccccc;
+    }
+
+    #home {
+        background-color: #4aaaa5;
+        color: white;
+        width: 100%;
+        height: 72px;
+        text-align: center;
+        float: left;
+        margin-top: 0px;
+        padding-top: 19px;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    #navigation {
+        position: relative; 
+        top: -15px;
+        left: -150px;
+    }
+
+    header {
+        background-color: white;
+        border-bottom: solid 2px;
+        border-color: #cccccc;
+        height: 180px;
+        width: 100%;
+     
+    }
+
+    #aboutMe {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top:50px;
+        margin-bottom: 100px;
+        padding: 35px;
+        width: 500px;
+    }
+
+    #Portfolio {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        height: 1350px;
+        width: 500px;
+        padding: 35px;
+    }
+
+    #Portfolio section {
+        width: 350px;
+    }
+
+    #Contact {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top: 50px;
+        width: 500px;
+        padding: 35px;
+    }
+    
+    .form {
+        width: 500px;
+    }
+    
+    textarea {
+        height: 200px; 
+        width: 500px; 
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+}
+@media only screen and (max-width: 640px) {
+
+    #aboutMe {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top:50px;
+        margin-bottom: 100px;
+        padding: 35px;
+        width: 350px;
+    }
+
+    #Portfolio {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        height: 1350px;
+        width: 350px;
+        padding: 35px;
+    }
+
+    #Portfolio section {
+        width: 350px;
+    }
+
+    #Contact {
+        background-color: #ffffff;
+        border: solid 1px; 
+        border-color: #dddddd;
+        margin: auto;
+        margin-top: 50px;
+        width: 350px;
+        padding: 35px;
+    }
+    
+    .form {
+        width: 350px;
+    }
+    
+    textarea {
+        height: 200px; 
+        width: 350px; 
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+}
